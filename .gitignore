@@ -1,0 +1,21 @@
+# --- Qt / QML ---
+# Compiled QML caches
+*.qmlc
+*.jsc
+# Language-server config generated per machine (paths differ per user)
+.qmlls.ini
+# Qt Creator
+*.pro.user
+*.user
+CMakeLists.txt.user
+
+# --- Local / user data ---
+# Personal overrides and generated snapshots; never commit these
+config.local.json
+*.local.json
+.env
+
+# --- Logs and caches ---
+*.log
+*.qslog
+.cache/
